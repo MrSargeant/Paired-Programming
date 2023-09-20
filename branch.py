@@ -3,3 +3,10 @@
 firstname = input("What is your firstname?")
 lastname = input("What is your lastname?")
 year = input("What year did you join?")
+
+
+email = year[2:5]+lastname+firstname[0:1]+"@elizabethan.notts.sch.uk"
+
+print(email)
+
+#18martine@elizabethan.notts.sch.uk
